@@ -1,0 +1,6 @@
+apple
+banana
+cherry
+apple pie
+banana split
+cherry tart
