@@ -45,7 +45,6 @@ grep -n "pie" fruits.txt
 
   Результат:
 ```
-apple
 4:Apple pie
 ```
 
