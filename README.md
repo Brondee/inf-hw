@@ -68,8 +68,3 @@ grep -E "^b" fruits.txt
 1. [Официальная документация grep](https://www.gnu.org/software/grep/manual/grep.html)
 2. [Linuxize: Как использовать grep](https://linuxize.com/post/how-to-use-grep-command-to-search-files-in-linux/)
 3. [Tutorialspoint: Руководство по grep](https://www.tutorialspoint.com/unix_commands/grep.htm)
-
-### Как успешно сдать работу?
-Создать свой репозиторий из шаблона этого. Как это делается - "Use this template" -> "Create a new repository" и сделайте его public.\
-\
-Находясь уже в своем репозитории - создайте новый файл формата .md и там оформляйте отчет. В отчете опишите все шаги которые вы делали, чтобы получить финальный результат работы.
