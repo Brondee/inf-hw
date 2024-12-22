@@ -8,7 +8,7 @@
 banana
 cherry
 apple
-apple pie
+Apple pie
 banana split
 cherry tart
 ```
@@ -21,8 +21,7 @@ grep "apple" fruits.txt
 
   Результат:
 ```
-apple  
-apple pie  
+apple   
 ```
 
 3. Используйте опцию -i для поиска строки без учёта регистра:
@@ -31,16 +30,35 @@ apple pie
 grep -i "Apple" fruits.txt
 ```
 
+  Результат:
+```
+apple
+Apple pie   
+```
+
+
 4. Найдите строки, содержащие слово pie, с указанием номера строки (опция -n):
 
 ```bash
 grep -n "pie" fruits.txt
 ```
 
+  Результат:
+```
+apple
+4:Apple pie
+```
+
 5. Используйте регулярное выражение для поиска строк, начинающихся с b (опция -E):
 
 ```bash
 grep -E "^b" fruits.txt
+```
+
+  Результат:
+```
+banana
+banana split
 ```
 
 ## Задача
